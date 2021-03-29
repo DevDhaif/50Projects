@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+    rgb(206, 22, 212),
+    rgb(170, 44, 143),
+    rgb(109, 7, 92)
+  );
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  margin: 0;
+  height: 100vh;
+  color: #fff;
+}
+.btn {
+  background-color: rebeccapurple;
+  border-radius: 10px;
+  color: #fff;
+  border: none;
+  padding: 1.5rem 3rem;
+  margin: 1rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.btn:focus {
+  outline: none;
+}
+.btn:hover {
+  transform: scale(0.98);
+}
