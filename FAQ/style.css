@@ -13,18 +13,19 @@ h1 {
   margin: 0 auto;
 }
 .faq {
-  background-color: transparent;
+  background-color: transparent;s
   border: 1px solid #9fa4a8;
   border-radius: 10px;
   margin: 20px 0;
   padding: 30px;
   position: relative;
   overflow: hidden;
-  transition: 1s ease;
+  transition: 2s ease;
 }
 .faq.active {
-  background-color: #fff;
+  background-color: rgb(131, 214, 240);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10% 12% 35% 58% / 30% 22% 55% 48%;
 }
 .faq.active::before,
 .faq.active::after {
